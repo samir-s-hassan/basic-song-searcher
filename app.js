@@ -59,5 +59,5 @@ app.use(function (req, res) {
 
 // launch the server
 app.listen(port, () => {
-  console.log(`Task Manager app listening at http://localhost:${port}`); //this helps load the website right from terminal
+  console.log(`Top 40 Song Searcher app listening at http://localhost:${port}`); //this helps load the website right from terminal
 });
