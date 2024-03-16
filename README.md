@@ -11,7 +11,7 @@ The following functionality is completed:
 - [X] User can search for a song using a keyword from the title and artist of the song
 - [X] User knows if the song was a #1 song based on the difference in color
 
-## How to run app
+## How to run
 
 1. Run "npm install" to get the package and dependencies for this project
 2. Run "node app.js" from the root of the project repository
