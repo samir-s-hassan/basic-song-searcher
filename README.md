@@ -13,9 +13,10 @@ The following functionality is completed:
 
 ## How to run app
 
-1. Run "node app.js" from the root of the project repository
-2. The app will run on a localhost which you can paste the link of in your browser
-3. Use the app!
+1. Run "npm install" to get the package and dependencies for this project
+2. Run "node app.js" from the root of the project repository
+3. The app will run on a localhost which you can paste the link of in your browser
+4. Use the app!
 
 ## Video Walkthrough
 
