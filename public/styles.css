@@ -1,0 +1,88 @@
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-family: Arial, sans-serif;
+}
+
+td,
+th {
+  border: 2px solid #ccc;
+  padding: 10px;
+}
+
+th {
+  text-align: left;
+  font-weight: bold;
+  background-color: #f2f2f2;
+  color: #333;
+  border-bottom: 4px solid #ccc;
+}
+
+tr.title-row {
+  border-top: 4px solid #ccc;
+  border-bottom: 4px solid #ccc;
+}
+
+tr.artist-row {
+  border-bottom: 2px solid #ccc;
+}
+
+tr:nth-child(even) {
+  background-color: #ebebeb;
+}
+
+fieldset {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 30px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+legend {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+label {
+  display: inline-block;
+  width: 100%;
+  max-width: 300px;
+  text-align: left;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  background-color: #008cba;
+  color: #fff;
+  font-size: 1.2em;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.lightpink {
+  background-color: lightpink;
+}
+
+tr.header-row td {
+  border: 2px solid #ccc;
+}
